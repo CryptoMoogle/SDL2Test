@@ -1,0 +1,6 @@
+
+
+sudo apt-get install libsdl2-dev
+
+g++ screen.cpp edge.cpp gradient.cpp matrix.cpp render.cpp vector.cpp vertex.cpp -lSDL2main -lSDL2 -o new.exe
+
